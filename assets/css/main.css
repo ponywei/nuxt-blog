@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Helvetica Neue', Helvetica, Arial, sans-serif, 'Segoe UI';
+  @apply leading-relaxed tracking-wide text-neutral-700;
+}
+
+h1 {
+  @apply font-bold text-2xl leading-[50px] text-neutral-950;
+}
+
+h2,
+h3,
+h4 {
+  @apply font-semibold text-xl leading-[50px] text-neutral-900;
+}
